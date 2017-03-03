@@ -1,3 +1,5 @@
+window.image_url = 'http://115.159.38.110/personal/image-col/StrikeProject/images/';
+
 window.navs = [
   {
     title: '学院',

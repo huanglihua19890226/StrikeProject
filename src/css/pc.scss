@@ -2,7 +2,7 @@
 }
 .container {
   width: 100%;
-  background: #fff url(../images/bg_top_grad.png) center top no-repeat;
+  background: #fff url(http://115.159.38.110/personal/image-col/StrikeProject/images/bg_top_grad.png) center top no-repeat;
   .header {
     width: 960px;
     height: 140px;
@@ -108,20 +108,35 @@
 }
 
 .box {
-  height: 200px;
+  height: 400px;
 }
-
+.footer_box {
+  height: 460px;
+  background: #3e3e3e url(http://115.159.38.110/personal/image-col/StrikeProject/images/bg_foot_andre_2.jpg) center bottom no-repeat;
+}
 .site-footer {
+  background: url(http://115.159.38.110/personal/image-col/StrikeProject/images/bg_shadow_grey.gif) center top no-repeat;
   width: 960px;
   margin: 0 auto;
   padding: 0 0 75px 0;
   color: #fff;
   display: block;
   .foot_col_1 {
+    display: inline-block;
     width: 255px;
     margin: 50px 70px 0 40px;
     float: left;
     position: relative;
+    a {
+      color: #009bd8;
+      img {
+        display: inline-block;
+        border: 0;
+        height: auto;
+        max-width: 100%;
+        cursor: pointer;
+      }
+    }
     .foot_sponsors {
       text-align: center;
       border-bottom: 1px solid #757575;
@@ -136,6 +151,54 @@
         text-align: center;
         margin: 0 0 17px 0;
       }
+
     }
+    .foot_biz {
+      text-align: center;
+      padding: 0 0 20px 0;
+    }
+    .foot_copyright {
+      text-align: center;
+      font-size: 11px;
+      color: #a9a9a9;
+      padding: 0 0 20px 0;
+    }
+  }
+  .foot_col_2 {
+    display: inline-block;
+    width: 230px;
+    margin: 0 35px 0 0;
+    padding: 90px 0 0 0;
+    position: relative;
+    text-align: center;
+    p {
+      margin-bottom: 1.4em;
+    }
+    .foot_logo {
+      position: absolute;
+      top: -45px;
+      left: 40px;
+      width: 146px;
+      height: 117px;
+      img {
+        width: inherit;
+        height: auto;
+      }
+    }
+    .foot_phone {
+      color: #e8e80c;
+      font-family: 'nexa_boldregular';
+      font-size: 20px;
+      margin: 0 0 25px 0;
+    }
+    .foot_adress {
+      font-size: 18px;
+      margin: 0 0 25px 0;
+    }
+  }
+  .foot_col_3 {
+    width: 323px;
+    margin: 50px 0 0 0;
+    float: right;
   }
 }
