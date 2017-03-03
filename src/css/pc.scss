@@ -1,0 +1,141 @@
+@media (min-width: 960px) {
+}
+.container {
+  width: 100%;
+  background: #fff url(../images/bg_top_grad.png) center top no-repeat;
+  .header {
+    width: 960px;
+    height: 140px;
+    margin: auto;
+    position: relative;
+    z-index: 9999;
+  }
+}
+
+
+.site-title {
+  width: 189px;
+  height: 151px;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  img {
+    width: 189px;
+    height: 153px;
+  }
+}
+
+
+#top-header {
+  width: 760px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  text-align: right;
+  &:after {
+    clear: both;
+  }
+  li {
+    margin: 0 12px 0 0;
+    padding: 8px 17px 0 0;
+    color: #009bd8;
+    text-transform: uppercase;
+
+    list-style: none;
+    text-align: right;
+    display: inline-block;
+    line-height: 30px;
+  }
+  .phone {
+
+  }
+}
+
+#site-navigation {
+  position: relative;
+  display: inline-block;
+  width: 700px;
+  float: right;
+  margin: 30px 120px 0 0;
+  &:after {
+    clear: both;
+  }
+  ul {
+    list-style: disc;
+    li {
+      display: inline-block;
+      zoom: 1;
+      position: relative;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      a {
+        display: block;
+        padding: 15px 10px;
+        font-size: 17px;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #002e40;
+      }
+      div {
+        position: absolute;
+        top: 50px;
+        width: 200px;
+        background-color: #009BD9;
+        span {
+          display: block;
+          text-align: left;
+          height: 35px;
+          line-height: 35px;
+          padding-left: 20px;
+          color: white;
+          font-size: 15px;
+          border-bottom: 1px solid #0084b8;
+        }
+      }
+    }
+  }
+  #menu-main-navigation {
+    text-align: right;
+    float: right;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.box {
+  height: 200px;
+}
+
+.site-footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 0 75px 0;
+  color: #fff;
+  display: block;
+  .foot_col_1 {
+    width: 255px;
+    margin: 50px 70px 0 40px;
+    float: left;
+    position: relative;
+    .foot_sponsors {
+      text-align: center;
+      border-bottom: 1px solid #757575;
+      padding: 0 0 20px 0;
+      margin: 0 0 20px 0;
+      .foot_title {
+        font-family: 'gobold_thinregular';
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #009bd8;
+        text-align: center;
+        margin: 0 0 17px 0;
+      }
+    }
+  }
+}
