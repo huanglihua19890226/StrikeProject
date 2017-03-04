@@ -17,7 +17,7 @@ export default class Header extends Component {
       <header className="header">
         <h1 className="site-title">
           <a href="" rel="home">
-            <img src={image_url + 'logo.png'} alt="sssss" />
+            <img src={image_url + 'logo.png'} alt="" />
           </a>
         </h1>
         <ul id="top-header">
