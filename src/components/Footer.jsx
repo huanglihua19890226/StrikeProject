@@ -47,7 +47,35 @@ export default class Footer extends Component {
             </p>
           </div>
           <div className="foot_col_3">
-            
+            <div id="enews">
+              <h3 className="foot_title">Newsletter</h3>
+              <p>Sign up below and receive updates, specials, discounts and event announcements from ATOS Jiu-Jitsu.</p>
+            </div>
+            <div id="andre">
+              <p className="quote">
+                <em>"You don't have to be the best, you just have to do your best"</em>
+                "-"
+                <strong>André Galvão</strong>
+              </p>
+              <p className="awards">
+                    Black Belt 3rd Degree
+                  <br/>
+                    ADCC Super Fight World Champion
+                    <br/>
+                    4x ADCC World Champion
+                    <br/>
+                    11X Pan American Champion
+                    <br/>
+                    President of ATOS Jiu-Jitsu Association
+                    <br/>
+                    ATOS Jiu-Jitsu Co-founder
+                    <br/>
+                    9x World Champion IBJJF
+                    <br/>
+                    5x World Cup Champion CBJJO
+                    <br/>
+              </p>
+            </div>
           </div>
         </div>
       </div>

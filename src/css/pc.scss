@@ -200,5 +200,35 @@
     width: 323px;
     margin: 50px 0 0 0;
     float: right;
+    position: relative;
+    #enews {
+      padding: 0 0 50px 0;
+      .foot_title {
+        font-family: 'gobold_thinregular';
+        font-size: 20px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #009bd8;
+        text-align: center;
+        margin: 0 0 17px 0;
+      }
+      p {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+      }
+    }
+    #andre {
+      .quote {
+        font-size: 14px;
+        margin: 0 0 12px 0;
+      }
+      .awards {
+        color: #009bd8;
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 1.4em;
+      }
+    }
   }
 }
