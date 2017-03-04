@@ -7,4 +7,7 @@ import './css/pc.scss';
 import './css/ipad.scss';
 import './css/mobile.scss';
 import './config/config.js';
+
+
+
 ReactDOM.render(<GameApp/>, document.getElementById('Main'));
