@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --devtool eval --progress --colors --inline --hot --port 4001",
     "pd": "git add -A && git commit -m 'normal update' && git push origin dev",
     "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js",
-    "push": "npm run deploy && git add * && git commit -m '...' && git push origin"
+    "push": "git add *"
   },
   "repository": {
     "type": "git",
@@ -54,5 +54,6 @@
     "redux-thunk": "^1.0.0",
     "reselect": "^2.3.0",
     "superagent": "^2.0.0"
-  }
+  },
+  "ignore": ["node_modules/", "npm-debug.log"]
 }

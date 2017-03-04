@@ -10,4 +10,4 @@ import './config/config.js';
 
 
 
-ReactDOM.render(<GameApp/>, document.getElementById('Main'));
+ReactDOM.render(<GameApp/>,document.getElementById('Main'));
