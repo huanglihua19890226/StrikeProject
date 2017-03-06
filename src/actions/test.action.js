@@ -1,17 +1,16 @@
-export function addSection(idx, text, pos) {
+export function addSection(idx, text) {
   return {
     type: 'ADD_SECTION',
-    id: idx,
     text,
-    pos
   }
 }
 
 
-export function delSection(idx) {
+export function delSection(idx, code) {
   return {
     type: 'DEL_SECTION',
-    id: idx
+    id: idx,
+    code
   }
 }
 

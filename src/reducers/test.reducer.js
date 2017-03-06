@@ -6,17 +6,18 @@ function sectionList (state = [], action) {
       var newState = [...state];
       newState.push({
         text: action.text,
-        pos: action.pos
       });
       return newState;
     case 'DEL_SECTION':
       var newState = [...state];
-      newState.splice(action.id, 1);
+      var index = -1;
+      newState.forEach((s, idx) => {
+        if (s.text === action.code) index = idx;
+      });
+      if (index !== -1) newState.splice(index, 1);
       return newState;
     case 'SELECT_SECTION':
       var newState = [...state];
-      var section = newState.splice(action.id, 1);
-      newState.push(section[0]);
       return newState;
     case 'UPDATE_SECTION_POS':
       var newState = [...state];

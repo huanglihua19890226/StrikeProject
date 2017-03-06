@@ -41,7 +41,7 @@ class Game_App extends Component {
       var isShow = true;
       if (idxOf === sectionListIdexs.length - 1) isShow = false;
       return (<Section key={idx}
-                      index={idx}
+                      index={idxOf}
                       sectionListIdexs={sectionListIdexs}
                       section={section}
                       isShow={isShow}
@@ -145,12 +145,18 @@ class Section extends DropWindowClass {
   render() {
     const { onClose, index, section, isShow, onSelect } = this.props;
     var commonZIndex = (index + 1) * 2
+    var sectionZIndex = {
+      zIndex:  99 + commonZIndex
+    }
+    var maskZIndex = {
+      zIndex: 100 + commonZIndex
+    }
     return (
-      <div className={`section Z-Index-${100 + commonZIndex - 1}`}  ref={index}>
+      <div className='section' style={sectionZIndex} ref={index}>
         <SectionHeader onClose={() => onClose(index)} index={index} onMouseDown={e => {
             this.dragStart(e, this.refs[index])
           }}/>
-        <div ref="up_section_layer" className={`section-mask Z-Index-${100 + commonZIndex} ${isShow ? 'section-mask-show' : 'section-mask-hidden'}`}  onMouseDown={e => {
+        <div ref="up_section_layer" style={maskZIndex} className={`section-mask ${isShow ? 'section-mask-show' : 'section-mask-hidden'}`}  onMouseDown={e => {
           onSelect(index);
           this.dragStart(e, this.refs[index]);
         }}/>
