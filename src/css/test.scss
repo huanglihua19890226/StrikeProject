@@ -1,0 +1,113 @@
+.container {
+  position: relative;
+  background-color: grey !important;
+  width: 100%;
+  height:400px;
+  &>button {
+    width: 50px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
+
+
+.section {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: red;
+  z-index: 100;
+  &>.section-header {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+    cursor: move;
+    &>button {
+      cursor: pointer;
+    }
+  }
+  .section-mask {
+    background-color: black;
+    opacity: 0.3;
+    cursor: move;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+  }
+  .section-mask-show {
+    display: block;
+  }
+  .section-mask-hidden {
+    display: none;
+  }
+  .Z-Index-1 {
+    z-index: 101;
+  }
+  .Z-Index-2 {
+    z-index: 102;
+  },
+  .Z-Index-3 {
+    z-index: 103;
+  }
+  .Z-Index-4 {
+    z-index: 104;
+  }
+  .Z-Index-5 {
+    z-index: 105;
+  }
+  .Z-Index-6 {
+    z-index: 106;
+  }
+  .Z-Index-7 {
+    z-index: 107;
+  }
+  .Z-Index-8 {
+    z-index: 108;
+  }
+  .Z-Index-9 {
+    z-index: 109;
+  }
+  .Z-Index-10 {
+    z-index: 110;
+  }
+  .Z-Index-11 {
+    z-index: 111;
+  }
+  .Z-Index-12 {
+    z-index: 112;
+  }
+  .Z-Index-13 {
+    z-index: 113;
+  }
+  .Z-Index-14 {
+    z-index: 114;
+  }
+  .Z-Index-15 {
+    z-index: 115;
+  }
+  .Z-Index-16 {
+    z-index: 116;
+  }
+  .Z-Index-17 {
+    z-index: 117;
+  }
+  .Z-Index-18 {
+    z-index: 118;
+  }
+  .Z-Index-19 {
+    z-index: 119;
+  }
+  .Z-Index-20 {
+    z-index: 120;
+  }
+}
